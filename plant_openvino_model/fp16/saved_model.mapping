@@ -1,0 +1,259 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="conv_dw_2_relu/Relu6" out_port_id="0"/>
+		<IR id="8" name="conv_dw_2_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_pw_13_relu/Relu6" out_port_id="0"/>
+		<IR id="54" name="conv_pw_13_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_pw_9_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="37" name="conv_pw_9/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_pw_10_relu/Relu6" out_port_id="0"/>
+		<IR id="42" name="conv_pw_10_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_pw_12_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="49" name="conv_pw_12/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_pw_2_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="9" name="conv_pw_2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_dw_6_relu/Relu6" out_port_id="0"/>
+		<IR id="24" name="conv_dw_6_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_2/Relu" out_port_id="0"/>
+		<IR id="63" name="dense_2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_pw_2_relu/Relu6" out_port_id="0"/>
+		<IR id="10" name="conv_pw_2_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_dw_11_relu/Relu6" out_port_id="0"/>
+		<IR id="44" name="conv_dw_11_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_dw_12_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="47" name="conv_dw_12/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="global_average_pooling2d_1/Mean" out_port_id="0"/>
+		<IR id="59" name="global_average_pooling2d_1/Mean/FinalReshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv_pw_7_relu/Relu6" out_port_id="0"/>
+		<IR id="30" name="conv_pw_7_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_pw_5_relu/Relu6" out_port_id="0"/>
+		<IR id="22" name="conv_pw_5_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv1_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="1" name="conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_dw_5_relu/Relu6" out_port_id="0"/>
+		<IR id="20" name="conv_dw_5_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_2/BiasAdd" out_port_id="0"/>
+		<IR id="62" name="dense_2/MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_pw_12_relu/Relu6" out_port_id="0"/>
+		<IR id="50" name="conv_pw_12_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_3/BiasAdd" out_port_id="0"/>
+		<IR id="64" name="dense_3/MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_dw_12_relu/Relu6" out_port_id="0"/>
+		<IR id="48" name="conv_dw_12_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_dw_10_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="39" name="conv_dw_10/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_pw_4_relu/Relu6" out_port_id="0"/>
+		<IR id="18" name="conv_pw_4_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_pw_1_relu/Relu6" out_port_id="0"/>
+		<IR id="6" name="conv_pw_1_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_4/Softmax" out_port_id="0"/>
+		<IR id="67" name="dense_4/Softmax" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_dw_7_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="27" name="conv_dw_7/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_dw_10_relu/Relu6" out_port_id="0"/>
+		<IR id="40" name="conv_dw_10_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_dw_7_relu/Relu6" out_port_id="0"/>
+		<IR id="28" name="conv_dw_7_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_pw_3_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="13" name="conv_pw_3/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_dw_3_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="11" name="conv_dw_3/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_dw_13_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="51" name="conv_dw_13/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="dense_4/BiasAdd" out_port_id="0"/>
+		<IR id="66" name="dense_4/MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_dw_4_relu/Relu6" out_port_id="0"/>
+		<IR id="16" name="conv_dw_4_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_dw_13_relu/Relu6" out_port_id="0"/>
+		<IR id="52" name="conv_dw_13_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_dw_2_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="7" name="conv_dw_2/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="dense_1/BiasAdd" out_port_id="0"/>
+		<IR id="60" name="dense_1/MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_pw_9_relu/Relu6" out_port_id="0"/>
+		<IR id="38" name="conv_pw_9_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_dw_4_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="15" name="conv_dw_4/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_dw_11_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="43" name="conv_dw_11/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_pw_3_relu/Relu6" out_port_id="0"/>
+		<IR id="14" name="conv_pw_3_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_pw_6_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="25" name="conv_pw_6/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_pw_7_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="29" name="conv_pw_7/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_pw_8_relu/Relu6" out_port_id="0"/>
+		<IR id="34" name="conv_pw_8_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_dw_5_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="19" name="conv_dw_5/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_dw_6_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="23" name="conv_dw_6/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_pw_11_relu/Relu6" out_port_id="0"/>
+		<IR id="46" name="conv_pw_11_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="input_1" out_port_id="0"/>
+		<IR id="0" name="input_1" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="conv_pw_1_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="5" name="conv_pw_1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_pw_5_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="21" name="conv_pw_5/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_pw_10_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="41" name="conv_pw_10/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_pw_6_relu/Relu6" out_port_id="0"/>
+		<IR id="26" name="conv_pw_6_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_pw_13_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="53" name="conv_pw_13/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_dw_1_relu/Relu6" out_port_id="0"/>
+		<IR id="4" name="conv_dw_1_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_dw_8_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="31" name="conv_dw_8/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv1_relu/Relu6" out_port_id="0"/>
+		<IR id="2" name="conv1_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_dw_1_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="3" name="conv_dw_1/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_pw_8_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="33" name="conv_pw_8/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_dw_9_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="35" name="conv_dw_9/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv_dw_8_relu/Relu6" out_port_id="0"/>
+		<IR id="32" name="conv_dw_8_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_dw_3_relu/Relu6" out_port_id="0"/>
+		<IR id="12" name="conv_dw_3_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_1/Relu" out_port_id="0"/>
+		<IR id="61" name="dense_1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_pw_11_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="45" name="conv_pw_11/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="dense_3/Relu" out_port_id="0"/>
+		<IR id="65" name="dense_3/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_dw_9_relu/Relu6" out_port_id="0"/>
+		<IR id="36" name="conv_dw_9_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv_pw_4_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="17" name="conv_pw_4/Conv2D" out_port_id="3"/>
+	</map>
+</mapping>
